@@ -6,7 +6,7 @@ import joblib
 
 
 # Read original dataset
-iris_df = pd.read_csv("Iris.csv")
+iris_df = pd.read_csv("data/Iris.csv")
 
 # selecting features and target data
 X = iris_df[['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']]
